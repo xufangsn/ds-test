@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.jt.TestRedisShards
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.007 s <<< FAILURE! - in com.jt.TestRedisShards
+testShards(com.jt.TestRedisShards)  Time elapsed: 2.007 s  <<< ERROR!
+redis.clients.jedis.exceptions.JedisConnectionException: Failed connecting to host 192.168.181.129:6381
+	at com.jt.TestRedisShards.testShards(TestRedisShards.java:30)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at com.jt.TestRedisShards.testShards(TestRedisShards.java:30)
+
